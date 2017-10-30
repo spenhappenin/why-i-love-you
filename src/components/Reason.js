@@ -26,10 +26,10 @@ class Reason  extends React.Component {
     return(
       <ReasonSection>
         <Header as='h1'>Reason { id }: { title }</Header>
-        <Header as='h5'>{ body }</Header>
+        <Header as='h3'>{ body }</Header>
         { this.renderButton(note) }
         <Transition visible={visible} animation='scale' duration={500}>
-          <Header as='h5'>{ note }</Header>
+          <Header as='h4'>{ note }</Header>
         </Transition>
       </ReasonSection>
     )
