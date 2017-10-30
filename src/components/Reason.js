@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Header, Transition } from 'semantic-ui-react';
+import StyledButton from '../assets/styledComponents/StyledButton';
 import ReasonSection from '../assets/styledComponents/ReasonSection';
 
 class Reason  extends React.Component {
@@ -7,7 +8,13 @@ class Reason  extends React.Component {
 
   renderButton = (note) => {
     if(note) {
-      return <Button basic content={this.state.visible ? 'Hide' : 'Show'} onClick={this.toggleNote} />
+      return (
+        <Button 
+          as={StyledButton}
+          content={this.state.visible ? 'Hide' : 'Show'} 
+          onClick={this.toggleNote} 
+        />
+      )
     }
   }
 
