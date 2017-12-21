@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  /* top choice */
+  background-image: url('http://res.cloudinary.com/dtb6lx1s4/image/upload/v1513882061/hearts_dvkydc.jpg');
+  /* background-image: url('https://i.pinimg.com/736x/04/11/04/0411046f22ffbb81fe30473c64320291--papel-scrapbook-heart-wallpaper.jpg'); */
+  /* background-image: url('http://globalmedicalco.com/photos/globalmedicalco/6/29703.jpg'); */
+  /* background-image: url('http://res.cloudinary.com/dtb6lx1s4/image/upload/v1513881334/background_awsf9u.jpg'); */
 }
 
 .layer {
