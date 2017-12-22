@@ -1,4 +1,14 @@
 import Placeholder from '../assets/images/mainheader.JPG';
+import BBQ from '../assets/images/bbq.JPG';
+import Atrium from '../assets/images/atrium.PNG';
+import VideoGame from '../assets/images/contra.JPG';
+import Cute from '../assets/images/cute.jpg';
+import Goober from '../assets/images/goober.JPG';
+import Hike from '../assets/images/hike.JPG';
+import HotChocolate from '../assets/images/hot_chocolate.JPG';
+import Jazz from '../assets/images/jazz.JPG';
+import Milo from '../assets/images/milo.PNG';
+import SilverLake from '../assets/images/silver_lake.JPG';
 
 export const testReasons = [
   {
@@ -16,7 +26,7 @@ export const testReasons = [
     id: 3,
     title: 'This is a title...',
     body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
-    image: Placeholder
+    image: BBQ
   },
   {
     id: 4,
@@ -39,8 +49,57 @@ export const testReasons = [
     id: 7,
     title: 'This is a title...',
     body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
-    image: Placeholder
-  },      
+    image: Atrium
+  },     
+  {
+    id: 8,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: VideoGame
+  },  
+  {
+    id: 9,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: Cute
+  }, 
+  {
+    id: 10,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: Goober
+  }, 
+  {
+    id: 11,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: Hike,
+    note: 'This can be a cute little note or something smaller.',
+  },
+  {
+    id: 12,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: HotChocolate
+  },
+  {
+    id: 13,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: Jazz
+  }, 
+  {
+    id: 14,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: Milo
+  },
+  {
+    id: 15,
+    title: 'This is a title...',
+    body: 'This is the text that will describe the reason why. This is the text that will describe the reason why. This is the text that will describe the reason why.',
+    image: SilverLake
+  },
 ]
 
 export const reasons = [
