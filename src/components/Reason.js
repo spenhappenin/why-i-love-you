@@ -26,7 +26,7 @@ class Reason  extends React.Component {
   toggleNote = () => this.setState({ visible: !this.state.visible });
 
   render() {
-    const { body, id, image, note, title } = this.props.reason;
+    const { body, id, note, title } = this.props.reason;
     const { visible } = this.state;
     return(
       <ReasonSection>

@@ -1,6 +1,6 @@
 import React from 'react';
 import MainTitle from '../assets/styledComponents/MainTitle';
-import { Header, Segment } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 
 class MainTitleText extends React.Component {
   render() {
