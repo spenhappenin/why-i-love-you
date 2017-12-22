@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Header, Transition } from 'semantic-ui-react';
 import StyledButton from '../assets/styledComponents/StyledButton';
+import ReasonTitle from '../assets/styledComponents/ReasonTitle';
+import ReasonBody from '../assets/styledComponents/ReasonBody';
 import ReasonSection from '../assets/styledComponents/ReasonSection';
 
 class Reason  extends React.Component {
@@ -25,8 +27,8 @@ class Reason  extends React.Component {
     const { visible } = this.state;
     return(
       <ReasonSection>
-        <Header as='h1'>Reason { id }: { title }</Header>
-        <Header as='h3'>{ body }</Header>
+        <Header as={ReasonTitle}>Reason { id }: { title }</Header>
+        <Header as={ReasonBody}>{ body }</Header>
         { this.renderButton(note) }
         <Transition visible={visible} animation='scale' duration={500}>
           <Header as='h4'>{ note }</Header>

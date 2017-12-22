@@ -7,15 +7,10 @@ import { Header } from 'semantic-ui-react';
 const MainBanner = ({ backgroundImage }) => (
   <ImageSectionDiv backgroundImage={backgroundImage}>
     <DarkOverlay>
+      <Header as={MainTitle} textAlign='center'>Why I Love You:</Header>
       <Header as={MainTitle} textAlign='center'>Heather Olsen</Header>
     </DarkOverlay>
   </ImageSectionDiv>
 )
-
-const styles = {
-  txt: {
-    color: 'white'
-  }
-}
 
 export default MainBanner;

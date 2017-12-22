@@ -6,4 +6,8 @@ export default styled.div`
   background-size: cover;
   background-position: 20% 20%;
   height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
 `

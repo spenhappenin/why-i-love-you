@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import AppContainer from '../assets/styledComponents/AppContainer';
 import MainBanner from './MainBanner';
 import ReasonsList from './ReasonsList';
-import Placeholder from '../assets/images/mainheader.JPG';
+import Placeholder from '../assets/images/mainheader2.JPG';
 import MainTitle from '../assets/styledComponents/MainTitle';
-import reasons from '../data/reasons';
+import { reasons, testReasons }from '../data/reasons';
 import { Header } from 'semantic-ui-react';
 
 class App extends Component {
@@ -13,7 +13,6 @@ class App extends Component {
       <div>
         <MainBanner backgroundImage={Placeholder} />
         <AppContainer>
-          <Header as={MainTitle} textAlign='center'>Heather Olsen</Header>
           <ReasonsList reasons={reasons} />
         </AppContainer>
       </div>
