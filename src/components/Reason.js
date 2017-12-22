@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Header, Transition } from 'semantic-ui-react';
+import { Button, Header, Segment, Transition } from 'semantic-ui-react';
 import StyledButton from '../assets/styledComponents/StyledButton';
 import ReasonTitle from '../assets/styledComponents/ReasonTitle';
 import ReasonBody from '../assets/styledComponents/ReasonBody';
@@ -13,7 +13,10 @@ class Reason  extends React.Component {
       return (
         <Button 
           as={StyledButton}
-          content={this.state.visible ? 'Hide' : 'Show'} 
+          circular 
+          icon='mail' 
+          size='huge'
+          color={this.state.visible ? 'brown' : 'red'} 
           onClick={this.toggleNote} 
         />
       )
@@ -27,11 +30,13 @@ class Reason  extends React.Component {
     const { visible } = this.state;
     return(
       <ReasonSection>
-        <Header as={ReasonTitle}>Reason { id }: { title }</Header>
-        <Header as={ReasonBody}>{ body }</Header>
-        { this.renderButton(note) }
+        <Header as={ReasonTitle} textAlign='center'>Reason { id }: { title }</Header>
+        <Header as={ReasonBody} textAlign='center'>{ body }</Header>
+        <Segment basic textAlign='center'>
+          { this.renderButton(note) }
+        </Segment>
         <Transition visible={visible} animation='scale' duration={500}>
-          <Header as='h4'>{ note }</Header>
+          <Header as='h4' textAlign='center'>{ note }</Header>
         </Transition>
       </ReasonSection>
     )

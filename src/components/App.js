@@ -13,7 +13,7 @@ class App extends Component {
       <div>
         <MainBanner backgroundImage={Placeholder} />
         <AppContainer>
-          <ReasonsList reasons={reasons} />
+          <ReasonsList reasons={testReasons} />
         </AppContainer>
       </div>
     );
