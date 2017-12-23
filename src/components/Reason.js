@@ -47,7 +47,7 @@ class Reason  extends React.Component {
     const { noteVisible, imageVisible } = this.state;
     return(
       <ReasonSection>
-        <Header as={ReasonTitle} textAlign='center'>Reason { id }: { title }</Header>
+        <Header as={ReasonTitle} textAlign='center'>{ title }</Header>
         <Header as={ReasonBody} textAlign='center'>{ body }</Header>
         <Segment basic textAlign='center'>
           { this.renderNoteButton(note) }
